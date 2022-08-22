@@ -36,13 +36,6 @@
         echo "Nenhum dado encontrado!";
     }
 ?>
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -140,7 +133,8 @@
                                 echo "  <a class=\"collapse-item\" href=\"#\">Competências</a>";
                                 echo "  <a class=\"collapse-item\" href=\"#\">Educação</a>";
                                 echo "  <a class=\"collapse-item\" href=\"#\">Experiência</a>";
-                                echo "  <a class=\"collapse-item\" href=\"dados_pessoais.php\">Dados Pessoais</a>"; 
+                                echo "  <a class=\"collapse-item\" href=\"dados_pessoais.php\">Dados Pessoais</a>";
+                                echo "  <a class=\"collapse-item\" href=\"ver_curriculo.php\">Ver Curriculo</a>"; 
                             }else{
                                 echo "  <a class=\"collapse-item\" href=\"curriculo.php\">Cadastrar</a>";
                                 echo "  <a class=\"collapse-item\" href=\"#\" role=\"link\" aria-disabled=\"true\" style=\"display: none;\">Competências</a>";
@@ -632,7 +626,7 @@ mysqli_close($conexao);
                                 </table>
                             </div>
                         </div>
-                        <a href="#" class="btn btn-primary btn-icon-split">
+                        <a href="experiencia.php" class="btn btn-primary btn-icon-split">
                             <span class="text">Cadastrar Outra Experiência</span>
                         </a>
                     </div>
